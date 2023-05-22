@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="19" viewBox="0 0 180 19">
+    <g fill="none" fill-rule="nonzero">
+        <ellipse cx="9.722" cy="9.5" fill="#FFF" rx="9.722" ry="9.5"/>
+        <text x="26" y="18" fill="#fff" style="font-family:Roboto,sans-serif;" font-size="24px">S-SMS</text>
+        <path fill="#008CCE" d="M5.165 5.047h4.563v4.459H5.165z"/>
+        <path fill="#7B63AB" d="M9.722 5.047h4.563v4.459H9.722z"/>
+        <path fill="#EE334A" d="M9.722 13.953H7.868c-1.499 0-2.709-1.182-2.709-2.647V9.494h4.563v4.459z"/>
+        <path fill="#00AD4D" d="M11.83 13.953H9.721V9.494h4.564v2.059c-.006 1.33-1.102 2.4-2.457 2.4z"/>
+    </g>
+</svg>

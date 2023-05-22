@@ -1,0 +1,358 @@
+.alert{
+    padding: 7px 15px;
+}
+.callout {
+    padding: 10px 15px;
+}
+.img-thumbnail{
+    padding: 2px;
+}
+span.help {
+    color: #59799a;
+    font-style: italic;
+}
+.nav > li > a {
+    padding: 8px 15px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #21a78b;
+}
+.btn {
+    padding: 5px 10px;
+    border: 0;
+    outline: none;
+    font-size: 13px;
+}
+table thead tr td, table thead tr td *{
+    font-weight: bold;
+}
+table thead tr td a{
+    color: #3c8dbc;
+}
+.btn.btn-primary {
+    border: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.sidebar-menu>li>a {
+    padding: 12px 5px 12px 10px;
+    display: block;
+    font-size: 14px;
+}
+.sidebar-menu .treeview-menu {
+    padding-left: 8px;
+}
+.btn-default {
+    background-color: #d6d6d6;
+}
+span.required {
+    color: #f00;
+}
+table.table.dotted tr td {
+    border-top: 0;
+    border-bottom: 1px dotted #ddd;
+}
+.table thead > tr > td, .table tbody > tr > td {
+    vertical-align: middle;
+}
+.box-body form table tbody tr td ul {
+    padding: 0;
+}
+form table ul {
+    margin-bottom: 0;
+}
+.box-body form table tbody tr td ul li {
+    list-style: none;
+}
+i.fa.disabled, span.fa.disabled, a.disabled i.fa, a.disabled span.fa {
+    color: #f23b3b;
+    font-size: 18px;
+}
+i.fa.enabled, span.fa.enabled, a.enabled i.fa, a.enabled span.fa {
+    color: #3c8dbc;
+    font-size: 18px;
+}
+.wid-10{
+    width: 10%;
+}
+#header .nav > li > a > .label {
+    text-shadow: none;
+    padding: 2px 4px 3px;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+}
+i.fa.enabled.module{
+    color: #f3a638
+}
+i.fa.disabled.module{
+    color: #afafaf
+}
+i.fa.enabled.featured, span.fa.enabled.featured, a.enabled.featured i.fa, a.enabled.featured span.fa {
+    color: #05bd05;
+}
+i.fa.disabled.featured, span.fa.disabled.featured, a.disabled.featured i.fa, a.disabled.featured span.fa {
+    /*color: #afafaf;*/
+}
+#box-image-manager a{border-radius: 0}
+#box-image-manager label.extension{
+    position: absolute;
+    background: #3c8dbc;
+    color: #fff;
+    font-weight: 100;
+    width: 30px;
+    height: 20px;
+    opacity: .8;
+    right: -1px;
+    top: -1px;
+}
+#filemanager .thumbnail {
+    border: 1px solid #cbdae8;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0;
+}
+#filemanager .modal-content{
+    border-radius: 0;
+}
+#filemanager .column-left{
+    background: #f1f1f1;
+    padding: 10px 4px;
+    height: 425px;
+    overflow: auto;
+}
+#filemanager .main-content-files ul{
+    padding-left: 0;
+}
+#filemanager .main-content-files ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+#filemanager .main-content-files ul li.active > a{
+    color: #e3503e !important;
+}
+#filemanager .main-content-files ul li input{
+    margin-right: 5px;
+}
+#filemanager .main-content-files ul ul li{
+    padding-left: 15px;
+}
+#filemanager #box-image-manager{
+    height: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#filemanager .modal-header{
+    padding: 4px 10px !important;
+}
+#filemanager .modal-body {
+    position: relative;
+    padding: 5px 10px;
+}
+#filemanager .modal-body > hr {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#filemanager .modal-footer {
+    padding: 5px 10px;
+}
+#box-image-manager .col-sm-2{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#box-image-manager .col-sm-2 label{
+    max-height: 56px;
+    overflow: hidden;
+}
+#box-image-manager .col-sm-2 label input{
+    position: absolute;
+    top: 86px;
+    left: 5px;
+    border: 1px solid red;
+}
+#box-image-manager > .row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.form-control.has-group{width: calc(100% - 40px);margin-right: 5px;}
+.dashboard-page .tile:hover{
+    cursor: pointer;
+}
+.form-group.end-module-name {
+    padding: 0;
+    border: 2px solid #dce2e8;
+    margin-bottom: 15px;
+}
+#wds-ajax-progress-loader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 999999999;
+    background: rgba(0, 0, 0, 0.2);
+    display: none;
+    -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;
+}
+#wds-ajax-progress-loader .ajax-progress-loader {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid rgba(97,100,193,0.98);
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: cssload-spin 625ms infinite linear;
+    -o-animation: cssload-spin 625ms infinite linear;
+    -ms-animation: cssload-spin 625ms infinite linear;
+    -webkit-animation: cssload-spin 625ms infinite linear;
+    -moz-animation: cssload-spin 625ms infinite linear;
+}
+.list-box-dashboard li a{
+    font-size: 14px;
+    border-bottom: 1px dashed #dbe4ef;
+    display: block;
+    padding: 5px 0;
+}
+.dropdown-menu {
+    border-color: #cecdcd;
+    box-shadow: 0 0 3px 0 rgba(0,0,0, .3);
+}
+i.fa.enabled.module{
+    color: #f3a638
+}
+i.fa.disabled.module{
+    color: #afafaf
+}
+i.fa.enabled.featured, span.fa.enabled.featured, a.enabled.featured i.fa, a.enabled.featured span.fa {
+    color: #05bd05;
+}
+i.fa.disabled.featured, span.fa.disabled.featured, a.disabled.featured i.fa, a.disabled.featured span.fa {
+    /*color: #afafaf;*/
+}
+#box-image-manager a{border-radius: 0}
+#box-image-manager label{
+    font-weight: normal;
+}
+#box-image-manager label.extension{
+    position: absolute;
+    background: #169f85;
+    color: #fff;
+    font-weight: 100;
+    width: 30px;
+    height: 20px;
+    opacity: .8;
+    right: -1px;
+    top: -1px;
+}
+#filemanager .thumbnail {
+    border: 1px solid #cbdae8;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 0;
+    background: #f0f1f3;
+}
+#filemanager .modal-content{
+    border-radius: 0;
+}
+#filemanager .column-left{
+    background: #f1f1f1;
+    padding: 10px 4px;
+    height: 425px;
+    overflow: auto;
+}
+#filemanager .main-content-files ul{
+    padding-left: 0;
+}
+#filemanager .main-content-files ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+#filemanager .main-content-files ul li.active > a{
+    color: #e3503e !important;
+}
+#filemanager .main-content-files ul li input{
+    margin-right: 5px;
+}
+#filemanager .main-content-files ul ul li{
+    padding-left: 15px;
+}
+#filemanager #box-image-manager{
+    height: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#filemanager .modal-header{
+    padding: 4px 10px !important;
+}
+#filemanager .modal-body {
+    position: relative;
+    padding: 5px 10px;
+}
+#filemanager .modal-body > hr {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#filemanager .modal-footer {
+    padding: 5px 10px;
+}
+#filemanager .modal-header .close {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 24px;
+    outline: none !important;
+}
+#box-image-manager .col-sm-2{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#box-image-manager .col-sm-2 label{
+    max-height: 56px;
+    overflow: hidden;
+}
+#box-image-manager .col-sm-2 label input{
+    position: absolute;
+    top: 86px;
+    left: 5px;
+    border: 1px solid red;
+}
+#box-image-manager > .row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.form-horizontal .well-row .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.checkbox-inline, .radio-inline {
+    padding-right: 20px;
+    padding-left: unset;
+}
+
+@keyframes cssload-spin {
+    100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+    100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+    100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+    100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+    100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
